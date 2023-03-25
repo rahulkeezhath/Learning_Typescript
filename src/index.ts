@@ -51,4 +51,37 @@
 
                                 // Functions
 
+// function calculateTax(income: number): number {       // We have properly anotate the datatype of it that we are writing based on return type
+//   return 0
+// }
 
+
+// function calculateTax(income: number): number {   
+//    if(income < 50_000)
+//    return income * 1.2;
+   //undefined     In JS it retunes undefined value which is not a number
+//    return income * 1.3
+// }
+
+
+// function calculateTax(income: number, taxYear = 2022): number {   
+//    if(taxYear < 2022)
+//    return income * 1.2;
+//       return income * 1.3
+// }
+
+// calculateTax(10_000)
+
+
+//                        Object
+
+// let employee: {
+//   readonly id: number,
+//   name: string,
+//   retire: (date: Date) => void          //readonly means that we cannot modify the id by setting it to any other                                         
+// } = { id: 1,                            // datatype it will show an error
+//    name: 'Mosh',
+//   retire: (date: Date) => {
+//     console.log(date)
+//   }
+// }
