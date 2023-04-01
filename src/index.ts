@@ -85,3 +85,39 @@
 //     console.log(date)
 //   }
 // }
+
+
+                                //Shorthand Notations
+         
+// Destructuring Assignment in Both Array and Object
+// const [first, second, third] = [1, 2, 3]; // destructuring an array
+
+// const {name, age} = {name: 'John', age: 30}; // destructuring an object
+
+// Spread Syntax in both Array and Object
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];
+
+// const newArr = [...arr1, ...arr2]; // using spread syntax to concatenate arrays
+
+// const obj1 = {x: 1, y: 2};
+// const obj2 = {z: 3};
+
+// const newObj = {...obj1, ...obj2}; // using spread syntax to merge objects
+
+// Ternary Operator
+// const num = 10;
+
+// const result = num > 5 ? 'Greater than 5' : 'Less than or equal to 5';
+
+// Optional Chaining
+// const user = {
+//   name: 'John',
+//   address: {
+//     city: 'New York'
+//   }
+// };
+
+// const city = user?.address?.city; // using optional chaining to access the city property
+
+// console.log(city);
